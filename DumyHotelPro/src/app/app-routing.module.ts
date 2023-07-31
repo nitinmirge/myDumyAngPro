@@ -10,7 +10,7 @@ const routes: Routes =
 
   {path:'owner',loadChildren:()=> import('./owner/owner.module').then(mod => mod.OwnerModule)},
 
-
+  {path:'user',loadChildren:()=>import('./user/user.module').then(mod=>mod.UserModule)}
 ];
 
 @NgModule({
