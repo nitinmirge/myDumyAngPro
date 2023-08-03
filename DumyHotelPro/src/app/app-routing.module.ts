@@ -6,6 +6,8 @@ const routes: Routes =
 [
   {path:'',component:HomeComponent},
 
+  {path:'home',component:HomeComponent},
+
   {path:'admin',loadChildren:()=> import('./admin/admin.module').then(mod => mod.AdminModule)},
 
   {path:'owner',loadChildren:()=> import('./owner/owner.module').then(mod => mod.OwnerModule)},
