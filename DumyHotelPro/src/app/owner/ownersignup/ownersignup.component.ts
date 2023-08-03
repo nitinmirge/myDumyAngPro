@@ -39,11 +39,11 @@ export class OwnersignupComponent {
                }
                async submit(){
                 let request = {
-                  Username:this.signUpForm.value.name?.replace(/\s+/g, " ").trim(),
-                  Email:this.signUpForm.value.email,
-                  Mobile:this.signUpForm.value.mobile,
-                  Password:this.signUpForm.value.password,
-                  Gender:this.signUpForm.value.gender
+                  name:this.signUpForm.value.name?.replace(/\s+/g, " ").trim(),
+                  email:this.signUpForm.value.email,
+                  mobile:this.signUpForm.value.mobile,
+                  password:this.signUpForm.value.password,
+                  gender:this.signUpForm.value.gender
                 }
 
                   // this.apiCallService.postApiCall(this.journey,request).subscribe(resp=>{
