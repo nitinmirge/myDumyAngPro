@@ -31,7 +31,7 @@ export class OwnersignupComponent {
                 this.signUpForm = this.fb.group({
                   name:['',[Validators.required,Validators.minLength(5),Validators.pattern('[a-zA-z]*'),this.commanService.whiteSpaceValidator]],
                   email:['',[]],
-                  mobile:['',[]],
+                  mobileNumber:['',[]],
                   password:['',[]],
                   gender:['',[]]
                 })
@@ -39,18 +39,19 @@ export class OwnersignupComponent {
                }
                async submit(){
                 let request = {
-                  name:this.signUpForm.value.name?.replace(/\s+/g, " ").trim(),
-                  email:this.signUpForm.value.email,
-                  mobile:this.signUpForm.value.mobile,
-                  password:this.signUpForm.value.password,
-                  gender:this.signUpForm.value.gender
+                  UserName:this.signUpForm.value.name?.replace(/\s+/g, " ").trim(),
+                  Email:this.signUpForm.value.email,
+                  Mobile:this.signUpForm.value.mobile,
+                  Password:this.signUpForm.value.password,
+                  Gender:this.signUpForm.value.gender
                 }
 
-                  // this.apiCallService.postApiCall(this.journey,request).subscribe(resp=>{
-                 //   console.log(resp);
-                 //   this.postResponse = resp;
+                  this.commanApiCallService.postApiCall(this.jorney,request).subscribe(resp=>{
+                   console.log(resp);
+                   this.postResponse = resp;
                  // })
-                 this.postResponse = await this.commanApiCallService.postApiCall(this.jorney,request).toPromise()
+                //  this.postResponse = await this.commanApiCallService.postApiCall(this.jorney,request).toPromise()
+               })
                }
 
                back(){

@@ -1,7 +1,49 @@
 {
   "admin": [],
   "user": [],
-  "owner": [],
-  "hotelDetails":[]
-
+  "owner": [
+    {
+      "UserName": "hgsgg",
+      "Email": "jbf@mail.com",
+      "Password": "augdh",
+      "Gender": "male",
+      "id": 1
+    },
+    {
+      "UserName": "hgsgg",
+      "Email": "jbf@mail.com",
+      "Password": "augdh",
+      "Gender": "male",
+      "id": 2
+    },
+    {
+      "UserName": "nitin",
+      "Email": "nitin@gmail.com",
+      "Password": "sfjgjkhhnb",
+      "Gender": "male",
+      "id": 3
+    },
+    {
+      "UserName": "nitin",
+      "Email": "nitin@gmail.com",
+      "Password": "sfjgjkhhnb",
+      "Gender": "male",
+      "id": 4
+    },
+    {
+      "UserName": "nitin",
+      "Email": "nitin@gmail.com",
+      "Password": "sfjgjkhhnb",
+      "Gender": "male",
+      "id": 5
+    },
+    {
+      "UserName": "nitin",
+      "Email": "nitin@gmail.com",
+      "Password": "sfkhykl",
+      "Gender": "male",
+      "id": 6
+    }
+  ],
+  "hotelDetails": []
 }
