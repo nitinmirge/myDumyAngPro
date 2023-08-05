@@ -52,6 +52,7 @@ export class OwnersignupComponent {
                  // })
                 //  this.postResponse = await this.commanApiCallService.postApiCall(this.jorney,request).toPromise()
                })
+                   this.router.navigateByUrl('/owner/ownersuccess')
                }
 
                back(){

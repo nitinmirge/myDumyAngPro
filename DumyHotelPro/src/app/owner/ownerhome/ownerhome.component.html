@@ -36,11 +36,47 @@
       </div>
 </form> -->
 
-<div>
-  <div class="btn-container">
+<!-- <div>
+  <div class="btn-container btns">
     <button mat-raised-button color="accent" (click)="back()">Back</button>
+  </div>
+  <div class="btn-container">
     <button mat-raised-button color="accent" (click)="login()" class="btns">Login</button>
     <button routerLink="/owner/ownersignup" mat-raised-button color="accent" class="btns">Sign Up</button>
-    <button routerLink="" mat-raised-button color="accent" class="btns">My Hotels</button>
+
   </div>
-</div>
+</div> -->
+<button mat-raised-button color="primary" (click)="back()" class="btns">Back</button>
+
+    <form class="example-form" [formGroup]="loginForm" *ngIf="!showForgetPasswordForm">
+         <mat-form-field class="example-full-width">
+          <mat-label>username </mat-label>
+          <input matInput formControlName="userName">
+         </mat-form-field>
+         <br>
+         <mat-form-field class="example-full-width">
+          <mat-label>Password</mat-label>
+          <input matInput formControlName="password">
+         </mat-form-field>
+         <br>
+         <div >
+          <button mat-raised-button color="primary" (click)="login()" class="btns">Login</button>
+          <button mat-raised-button color="primary" (click)="forgetPasswod()" class="btns">Forget Password</button>
+          <a mat-raised-button color="warn" routerLink="/owner/ownersignup" class="btns">New Owner?</a>
+         </div>
+    </form>
+
+    <form class="example-form" [formGroup]="forgetPasswordForm" *ngIf="showForgetPasswordForm">
+      <mat-form-field class="example-full-width">
+        <mat-label>New Password</mat-label>
+        <input matInput formControlName="newPassword">
+      </mat-form-field>
+      <br>
+      <mat-form-field>
+        <mat-label>Confirm Password</mat-label>
+        <input matInput formControlName="confirmPassword">
+      </mat-form-field>
+      <div>
+        <button mat-raised-button color="primary" (click)="submit()">Submit</button>
+      </div>
+    </form>

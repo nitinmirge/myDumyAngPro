@@ -9,7 +9,7 @@ import { HttpClientModule} from '@angular/common/http';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-
+// import { ToastrModule } from 'ngx-toastr';
 
 
 
@@ -26,7 +26,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatFormFieldModule,
     MatToolbarModule,
     MatIconModule,
-
+    // ToastrModule
 
   ],
   exports:[

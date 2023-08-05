@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OwnerloginComponent } from './ownerlogin.component';
+import { OwnerSuccessComponent } from './owner-success.component';
 
-describe('OwnerloginComponent', () => {
-  let component: OwnerloginComponent;
-  let fixture: ComponentFixture<OwnerloginComponent>;
+describe('OwnerSuccessComponent', () => {
+  let component: OwnerSuccessComponent;
+  let fixture: ComponentFixture<OwnerSuccessComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ OwnerloginComponent ]
+      declarations: [ OwnerSuccessComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(OwnerloginComponent);
+    fixture = TestBed.createComponent(OwnerSuccessComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -43,6 +43,27 @@
       "Password": "sfkhykl",
       "Gender": "male",
       "id": 6
+    },
+    {
+      "UserName": "sachin",
+      "Email": "sachin@gmail.com",
+      "Password": "syturyuti",
+      "Gender": "male",
+      "id": 7
+    },
+    {
+      "UserName": "shivcharn",
+      "Email": "shiva@gmail.com",
+      "Password": "vgkhkv",
+      "Gender": "male",
+      "id": 8
+    },
+    {
+      "UserName": "dinesh",
+      "Email": "dinesh@gmail.com",
+      "Password": "gfjfkjk",
+      "Gender": "male",
+      "id": 9
     }
   ],
   "hotelDetails": []
