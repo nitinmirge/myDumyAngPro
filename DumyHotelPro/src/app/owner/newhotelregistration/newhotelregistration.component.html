@@ -1,1 +1,22 @@
-<p>newhotelregistration works!</p>
+<!-- <div class="container">
+  <mat-toolbar color="primary">
+       <h2 class="h2"><mat-icon>local_hotel</mat-icon>GetSetBooking..</h2>
+  </mat-toolbar>
+  <div>
+    <form [formGroup]="hotelRegistrationForm()" class="div-form">
+           <mat-form-field>
+
+            <mat-label>OwnerName</mat-label>
+            <input matInput formControlName="ownerName">
+            <mat-hint *ngIf="!hotelRegistrationForm.get('ownerName')?.touched">Enter Full Name</mat-hint>
+            <mat-error *ngIf="!hotelRegistrationForm.get('ownerName')?.error?.['required']">This Field is required</mat-error>
+            <mat-error *ngIf="!hotelRegistrationForm.get('ownerName')?.error?.['pattern'] && !hotelRegistrationForm.get('ownerName')?.error?.['minlength']">Min 5 Charecter are required</mat-error>
+            <mat-error *ngIf="!hotelRegistrationForm.get('ownerName')?.error?.['pattern']">Pattern is not match</mat-error>
+           </mat-form-field>
+
+           <mat-form-field>
+
+           </mat-form-field>
+    </form>
+  </div>
+</div> -->

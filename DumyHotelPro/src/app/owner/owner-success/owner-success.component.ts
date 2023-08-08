@@ -13,4 +13,7 @@ export class OwnerSuccessComponent {
   hotelRegistration(){
     this.router.navigateByUrl('/owner/newhotelregistration')
   }
+  myHotelDetails(){
+
+  }
 }

@@ -56,27 +56,28 @@
          <br>
          <mat-form-field class="example-full-width">
           <mat-label>Password</mat-label>
-          <input matInput formControlName="password">
+          <input matInput type="password" formControlName="password">
          </mat-form-field>
          <br>
          <div >
           <button mat-raised-button color="primary" (click)="login()" class="btns">Login</button>
-          <button mat-raised-button color="primary" (click)="forgetPasswod()" class="btns">Forget Password</button>
-          <a mat-raised-button color="warn" routerLink="/owner/ownersignup" class="btns">New Owner?</a>
+          <!-- <button mat-raised-button color="primary" (click)="forgetPasswod()" class="btns">Forget Password</button> -->
+          <a mat-raised-button color="primary" routerLink="/owner/ownersignup" class="btns">New Owner?</a>
          </div>
     </form>
 
-    <form class="example-form" [formGroup]="forgetPasswordForm" *ngIf="showForgetPasswordForm">
+    <!-- <form class="example-form" [formGroup]="forgetPasswordForm" *ngIf="showForgetPasswordForm">
       <mat-form-field class="example-full-width">
         <mat-label>New Password</mat-label>
-        <input matInput formControlName="newPassword">
+        <input matInput type="password" formControlName="newPassword">
       </mat-form-field>
       <br>
       <mat-form-field>
         <mat-label>Confirm Password</mat-label>
-        <input matInput formControlName="confirmPassword">
+        <input matInput type="password" formControlName="confirmPassword">
       </mat-form-field>
       <div>
         <button mat-raised-button color="primary" (click)="submit()">Submit</button>
       </div>
-    </form>
+    </form> -->
+

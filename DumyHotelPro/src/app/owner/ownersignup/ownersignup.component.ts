@@ -37,7 +37,7 @@ export class OwnersignupComponent {
                 })
 
                }
-               async submit(){
+                submit(){
                 let request = {
                   UserName:this.signUpForm.value.name?.replace(/\s+/g, " ").trim(),
                   Email:this.signUpForm.value.email,
@@ -52,7 +52,9 @@ export class OwnersignupComponent {
                  // })
                 //  this.postResponse = await this.commanApiCallService.postApiCall(this.jorney,request).toPromise()
                })
+              //  if(this.postResponse?.id){
                    this.router.navigateByUrl('/owner/ownersuccess')
+              //  }
                }
 
                back(){

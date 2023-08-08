@@ -3,67 +3,81 @@
   "user": [],
   "owner": [
     {
-      "UserName": "hgsgg",
+      "UserName": "sachin",
       "Email": "jbf@mail.com",
-      "Password": "augdh",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 1
     },
     {
-      "UserName": "hgsgg",
+      "UserName": "sagar",
       "Email": "jbf@mail.com",
-      "Password": "augdh",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 2
     },
     {
       "UserName": "nitin",
       "Email": "nitin@gmail.com",
-      "Password": "sfjgjkhhnb",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 3
     },
     {
       "UserName": "nitin",
-      "Email": "nitin@gmail.com",
-      "Password": "sfjgjkhhnb",
+      "Email": "nitin123@gmail.com",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 4
     },
     {
-      "UserName": "nitin",
-      "Email": "nitin@gmail.com",
-      "Password": "sfjgjkhhnb",
+      "UserName": "sham",
+      "Email": "sham@gmail.com",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 5
     },
     {
-      "UserName": "nitin",
+      "UserName": "saurabh",
       "Email": "nitin@gmail.com",
-      "Password": "sfkhykl",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 6
     },
     {
-      "UserName": "sachin",
-      "Email": "sachin@gmail.com",
-      "Password": "syturyuti",
+      "UserName": "shyam",
+      "Email": "shyam@gmail.com",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 7
     },
     {
       "UserName": "shivcharn",
       "Email": "shiva@gmail.com",
-      "Password": "vgkhkv",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 8
     },
     {
       "UserName": "dinesh",
       "Email": "dinesh@gmail.com",
-      "Password": "gfjfkjk",
+      "Password": "Pass@123",
       "Gender": "male",
       "id": 9
+    },
+    {
+      "UserName": "arun",
+      "Email": "arun@gmail.com",
+      "Password": "hgfuuy",
+      "Gender": "male",
+      "id": 10
+    },
+    {
+      "UserName": "raghu",
+      "Email": "raghu@gmail.com",
+      "Password": "tysytutu",
+      "Gender": "male",
+      "id": 11
     }
   ],
   "hotelDetails": []
