@@ -50,6 +50,7 @@ export class OwnerhomeComponent {
 
        login(){
         console.log(this.loginForm.value);
+        this.commanService.userName=this.loginForm.value.userName
         this.getOwnerApiData();
         console.log('this.ownerData',this.ownerData);
         if(this.ownerData){

@@ -80,5 +80,36 @@
       "id": 11
     }
   ],
-  "hotelDetails": []
+  "hotelDetails": [
+    {
+      "ownerName": "nitin",
+      "ownerContact": "9999999999",
+      "hotelName": "vidarbh",
+      "hotelContact": "6666666666",
+      "hotelAddress": "kalamkhed",
+      "hotelMenu": "pizza",
+      "password": "Pass@123",
+      "id": 1
+    },
+    {
+      "ownerName": "sachin",
+      "ownerContact": "9999888899",
+      "hotelName": "kalika",
+      "hotelContact": "9090909090",
+      "hotelAddress": "jastgaon",
+      "hotelMenu": "soyagold",
+      "password": "Pass@123",
+      "id": 2
+    },
+    {
+      "ownerName": "Sagar",
+      "ownerContact": "8989898989",
+      "hotelName": "vikrant",
+      "hotelContact": "5555555555",
+      "hotelAddress": "jastgaonkakola",
+      "hotelMenu": "kachori",
+      "password": "Pass@123",
+      "id": 3
+    }
+  ]
 }
